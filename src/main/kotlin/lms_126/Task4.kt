@@ -3,7 +3,14 @@ package lms_126
 fun task4(): String {
 
     return """
-       PRINT X if X is greater than Y
-       PRINT Y if Y is greater Than X 
+       INPUT number x
+       INPUT number y
+       IF x < y then
+         OUTPUT number y
+         ELSE
+         IF y < x then
+           OUTPUT number x
+           ELSE
+            OUTPUT x = y
     """
 }
