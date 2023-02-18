@@ -2,17 +2,16 @@ package lms_127
 
 fun task1() {
 
-    return
-    val Contry = Sweden
-    val Capital = Stocholm
-    val Currency = crowns
 
-    val nation = "$Contry $Capital $Currency"
+    val country = Sweden
+    val capital = Stocholm
+    val currency = Crowns
+    val nation = "$country $capital $currency"
 
 
 }
 fun main()
 {
     task1()
-    println(nation)
+  println(nation)
 }
