@@ -2,5 +2,15 @@ package lms_129
 
 fun task4(): Int {
 
-    return TODO("Replace this 'TODO' with the variable 'result'. Do not erase the 'return' keyword")
+     var result = 1
+    for(number in 1..1000){
+        if(number % 9 ==0){
+          result = number
+            println(number)
+        }
+    }
+return result
+}
+fun main (){
+println(task4())
 }
